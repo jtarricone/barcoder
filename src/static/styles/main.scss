@@ -1,0 +1,58 @@
+@import "node_modules/sass-google-fonts/src/GoogleFonts.scss";
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+body {
+  -webkit-overflow-scrolling:auto;
+}
+$icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
+@import '~bootstrap-sass/assets/stylesheets/bootstrap/_mixins.scss';
+@import '~bootstrap-sass/assets/stylesheets/_bootstrap.scss';
+@import './components/_appView.scss';
+
+.fi:before{
+  display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+// can add Boostrap overrides, additional Sass/CSS below...
+.card {
+  background-color: #42ea42;
+  &:hover {
+    background-color: #d7c49d;
+  }
+}
+
+.row {
+  width: 100%;
+}
+
+.no-background {
+  background-color: rgba(0,0,0,0.0);
+}
+
+.no-border {
+  border: none;
+}
+
+.pencil-border {
+  border: rgba(0,0,0,0.5);
+  border-width: 2px;
+}
+
+.no-padding {
+  padding: 0px;
+}
+
+.no-margin {
+  margin: 0;
+}
