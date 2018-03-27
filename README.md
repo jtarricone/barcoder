@@ -9,5 +9,5 @@ Use `npm install` to install dependencies, then `npm start` to build the app and
 The app should be hosted at `localhost:8080`
 
 ### Example
-![Sample](https://github.com/jtarricone/barcoder/misc/example.gif)
+![Sample](https://github.com/jtarricone/barcoder/blob/master/misc/example.gif)
 
